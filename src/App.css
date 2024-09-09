@@ -1,4 +1,18 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.messages-box {
+  /* height: calc(50vh - 2500px); */
+  max-height: calc(100vh - 260px);
+  /* max-height: 200px; */
+}
+.chatroom-list {
+  height: calc(100vh - 200px);
+  /* max-height: 200px; */
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +49,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

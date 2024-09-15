@@ -169,9 +169,9 @@
 
 // export default Messages;
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import Datatable from '../../components/Datatable/Datatable';
+// import Datatable from '../../components/Datatable/Datatable';
 import ChatroomsListItem from '../../components/Messages/ChatroomsListItem';
 import '../../App.css';
 import ChatroomHeader from '../../components/Messages/ChatroomHeader';
